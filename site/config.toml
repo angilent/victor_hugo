@@ -30,16 +30,10 @@ paginate = 10
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "avatar.jpg"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**I'm Strata**, a super simple<br> responsive site template freebie<br> crafted by [HTML5 UP](//html5up.net)."
+		bio = "**这里是厨子杂货铺**，<br>希望有你的菜。<br>　我的口号是　**厨子有菜必尝**！ "
 		# The icons will be shown if you enter your username
-		twitter = "spf13"
-		github = "spf13"
-		gitlab = "spf13"
-		dribbble = ""
-		facebook = ""
-		googleplus = ""
-		flickr = ""
-		linkedin = ""
+		github = "angilent"
+		linkedin = "%E6%82%A6-%E9%82%B5-04a588121"
 
 		copyright = [
 			"&copy; John Doe",
@@ -50,13 +44,13 @@ paginate = 10
 
 	[params.about]
 		hide  = false
-		title = "Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque."
-		content = "Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia."
+		title = "经历过烟熏火燎才得美味扑鼻，知难行难，烧茄子"
+		content = "读不懂？就对了？杂货铺里并不是每件东西你都知道是干嘛的。有的是当初珍藏的，有的是当初遗忘的，有的是想当初，有的是想当然，有的是牛粪，有的是花香。"
 
 
 	[params.portfolio]
 		hide  = false
-		title = "Recent Work"
+		title = "新鲜食材"
 
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
@@ -84,35 +78,23 @@ paginate = 10
 			title = "Lorem ipsum dolor."
 			description = "Lorem ipsum dolor sit amet."
 
-		[[params.portfolio.gallery]]
-			image = "fulls/05.jpg"
-			thumb = "thumbs/05.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
-
-		[[params.portfolio.gallery]]
-			image = "fulls/06.jpg"
-			thumb = "thumbs/06.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
-
 	[params.recentposts]
 		hide  = false
-		title = "Recent blog posts"
+		title = "尝鲜"
 
 	[params.contact]
 		hide  = false
-		title = "Get In Touch"
-		content = "Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor."
+		title = "联系厨子"
+		content = "我的家就在，团结湖后面有个野湖的旁边。"
 
 		# This can be exact coordinates or a searchable address in google maps
 		gmaps_address = "39.7889055,-120.5443524"
 		address = [
-			"1234 Somewhere Rd.",
-			"Nashville, TN 00000",
-			"United States"
+			"团结湖",
+			"北京市朝阳区",
+			"中华人民共和国"
 		]
-		phone = "000-000-0000"
+		phone = "+86013391545335"
 
 		# Since this template is static, the contact form uses www.formspree.io as a
 		# proxy. The form makes a POST request to their servers to send the actual
@@ -125,7 +107,7 @@ paginate = 10
 	    # - send a dummy email yourself to confirm your account
 	    # - click the confirm link in the email from www.formspree.io
 	    # - you're done. Happy mailing!
-		email = "hello@example.com"
+		 email = "kwyjibo@qq.com"
 
 		[params.contact.form]
 			# Set custom strings for the form if your native
@@ -138,16 +120,16 @@ paginate = 10
 
 # Menu links that appear on the left sidebar
 [[menu.main]]
-	name = "Home"
+	name = "主页"
 	url  = "/"
 	weight = 0
 
 [[menu.main]]
-	name = "About"
+	name = "煮我"
 	url  = "about"
 	weight = 5
 
 [[menu.main]]
-	name = "Blog"
+	name = "菜谱"
 	url  = "post/"
 	weight = 10

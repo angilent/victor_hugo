@@ -112,10 +112,10 @@ paginate = 10
 		[params.contact.form]
 			# Set custom strings for the form if your native
 			# language isn't English
-			name = "Name"
-			email = "Email"
-			message = "Message"
-			submit = "Send message"
+			name = "你的名字"
+			email = "联系邮箱"
+			message = "心里话"
+			submit = "对我讲"
 
 
 # Menu links that appear on the left sidebar

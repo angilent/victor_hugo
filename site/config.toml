@@ -12,14 +12,14 @@ paginate = 10
 [params]
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Your name"
-	description = "Describe your website"
+	name = "kwyjibo"
+	description = "中年厨子"
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
 
 	# Add read time estimates in the format "X min read"
-	show_read_time = false
+	show_read_time = true
 
 	# Add custom assets with their paths relative to the static folder
 	custom_js   = []
@@ -36,9 +36,9 @@ paginate = 10
 		linkedin = "%E6%82%A6-%E9%82%B5-04a588121"
 
 		copyright = [
-			"&copy; John Doe",
-			"Design: [HTML5 UP](//html5up.net)",
-			"Demo Images: [Unsplash](//unsplash.com/)"
+			"&copy; kwyjibo",
+			"模板: strata",
+			"系统: [Hugo](http://gohugo.io)"
 		]
 
 
@@ -56,7 +56,7 @@ paginate = 10
 		# Create and change subfolders as you like
 		[[params.portfolio.gallery]]
 			image = "fulls/01.jpg"
-			thumb = "thumbs/01.jpg"
+			thumb = "thumbs/02.jpg"
 			title = "Lorem ipsum dolor."
 			description = "Lorem ipsum dolor sit amet."
 

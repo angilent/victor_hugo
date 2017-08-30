@@ -1,9 +1,9 @@
 baseurl = "/"
 languageCode = "zh-CN"
 languageLang = "zh"
-title = "我的new Victor-Hugo site"
+title = "厨子的杂货铺"
 theme = "hugo-strata-theme"
-disqusShortname = "spf13"
+disqusShortname = ""
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = "UA-105606824-1"
 # Define how many posts should appear on a site

@@ -33,11 +33,11 @@ paginate = 10
 		bio = "**这里是厨子杂货铺**，<br>希望有你的菜。<br>　**厨子有菜必尝**！ "
 		# The icons will be shown if you enter your username
 		github = "angilent"
-		linkedin = "%E6%82%A6-%E9%82%B5-04a588121"
+		linkedin = "https://www.linkedin.com/in/%E6%82%A6-%E9%82%B5-04a588121/"
+		gitter = "gitter"
 
 		copyright = [
-			"&copy; kwyjibo团结湖老K",
-			"模板: strata",
+			"&copy; kwyjibo",
 			"技术: [Hugo](http://gohugo.io)"
 		]
 

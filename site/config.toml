@@ -9,6 +9,7 @@ googleAnalytics = "UA-105606824-1"
 # Define how many posts should appear on a site
 paginate = 10
 
+
 [params]
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
@@ -20,6 +21,12 @@ paginate = 10
 
 	# Add read time estimates in the format "X min read"
 	show_read_time = true
+
+	# use image server 
+	use_out_img = true
+
+	# static img server url
+	outimglink = "http://s7.lego1x5.com/"
 
 	# Add custom assets with their paths relative to the static folder
 	custom_js   = []
@@ -55,28 +62,28 @@ paginate = 10
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
 		[[params.portfolio.gallery]]
-			image = "fulls/01.jpg"
-			thumb = "thumbs/02.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			image = "zdss/IMG_1690.JPG"
+			thumb = "zdss/IMG_1690.JPG-o660x386"
+			title = "库克捡石子"
+			description = "拆社会主义大道。"
 
 		[[params.portfolio.gallery]]
-			image = "fulls/02.jpg"
-			thumb = "thumbs/02.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			image = "zdss/IMG_1691.JPG"
+			thumb = "zdss/IMG_1691.JPG-o660x386"
+			title = "库克指路"
+			description = "让别人无路可走。"
 
 		[[params.portfolio.gallery]]
-			image = "fulls/03.jpg"
-			thumb = "thumbs/03.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			image = "zdss/IMG_1692.JPG"
+			thumb = "zdss/IMG_1692.JPG-o660x386"
+			title = "库克坐小凳"
+			description = "噔噔蹬蹬噔"
 
 		[[params.portfolio.gallery]]
-			image = "fulls/04.jpg"
-			thumb = "thumbs/04.jpg"
-			title = "Lorem ipsum dolor."
-			description = "Lorem ipsum dolor sit amet."
+			image = "zdss/IMG_1693.JPG"
+			thumb = "zdss/IMG_1693.JPG-o660x386"
+			title = "库克吃香蕉"
+			description = "呀弥呀弥，我是小猴子"
 
 	[params.recentposts]
 		hide  = false

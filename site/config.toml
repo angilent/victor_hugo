@@ -127,7 +127,7 @@ paginate = 10
 
 # Menu links that appear on the left sidebar
 [[menu.main]]
-	name = "主页"
+	name = "首页"
 	url  = "/"
 	weight = 0
 
@@ -137,6 +137,6 @@ paginate = 10
 	weight = 5
 
 [[menu.main]]
-	name = "菜谱"
+	name = "飨食录"
 	url  = "post/"
 	weight = 10
